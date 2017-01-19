@@ -1,0 +1,8 @@
+#! /bin/bash
+
+if [ $# -ne 0 ]
+  then
+	java -classpath ./target/parking-lot-1.0-SNAPSHOT.jar com.gojek.park.ParkingLotMain $1
+  else
+	java -classpath ./target/parking-lot-1.0-SNAPSHOT.jar com.gojek.park.ParkingLotMain
+fi
